@@ -1,0 +1,121 @@
+object chatForm: TchatForm
+  Left = 0
+  Top = 0
+  Caption = 'Chat Window'
+  ClientHeight = 467
+  ClientWidth = 711
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 8
+    Width = 44
+    Height = 13
+    Caption = 'Chat box'
+  end
+  object Label2: TLabel
+    Left = 492
+    Top = 8
+    Width = 79
+    Height = 13
+    Caption = 'List Online Users'
+  end
+  object Label3: TLabel
+    Left = 8
+    Top = 309
+    Width = 82
+    Height = 13
+    Caption = 'Say something...'
+  end
+  object Label4: TLabel
+    Left = 492
+    Top = 309
+    Width = 65
+    Height = 13
+    Caption = 'Configuration'
+  end
+  object GroupBox1: TGroupBox
+    Left = 492
+    Top = 328
+    Width = 211
+    Height = 129
+    TabOrder = 0
+    object Label5: TLabel
+      Left = 6
+      Top = 32
+      Width = 52
+      Height = 13
+      Caption = 'IP Address'
+    end
+    object Label6: TLabel
+      Left = 19
+      Top = 72
+      Width = 20
+      Height = 13
+      Caption = 'Port'
+    end
+    object edtIPAddress: TEdit
+      Left = 64
+      Top = 24
+      Width = 129
+      Height = 21
+      HelpType = htKeyword
+      TabOrder = 0
+    end
+    object edtPort: TEdit
+      Left = 64
+      Top = 64
+      Width = 129
+      Height = 21
+      TabOrder = 1
+    end
+    object btnConnect: TButton
+      Left = 88
+      Top = 91
+      Width = 75
+      Height = 25
+      Caption = 'Connect'
+      TabOrder = 2
+      OnClick = btnConnectClick
+    end
+  end
+  object Memo1: TMemo
+    Left = 8
+    Top = 27
+    Width = 465
+    Height = 257
+    Lines.Strings = (
+      '')
+    ReadOnly = True
+    TabOrder = 1
+  end
+  object ListBox1: TListBox
+    Left = 492
+    Top = 31
+    Width = 209
+    Height = 257
+    ItemHeight = 13
+    TabOrder = 2
+  end
+  object Memo2: TMemo
+    Left = 8
+    Top = 330
+    Width = 465
+    Height = 129
+    TabOrder = 3
+  end
+  object ClientSocket1: TClientSocket
+    Active = False
+    ClientType = ctNonBlocking
+    Port = 0
+    Left = 408
+    Top = 288
+  end
+end

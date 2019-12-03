@@ -1,0 +1,53 @@
+unit login;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, System.ImageList, Vcl.ImgList,
+  Vcl.StdCtrls, Vcl.Imaging.pngimage, Vcl.ExtCtrls, chatWindow;
+
+type
+  TloginForm = class(TForm)
+    txtUsername: TEdit;
+    txtPassword: TEdit;
+    Button1: TButton;
+    Label1: TLabel;
+    Label2: TLabel;
+    Image1: TImage;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  loginForm: TloginForm;
+
+implementation
+
+{$R *.dfm}
+
+procedure TloginForm.Button1Click(Sender: TObject);
+begin
+  if(txtUsername.Text = 'a') then
+  begin
+    if(txtPassword.Text = '1') then
+    begin
+        ShowMessage('Login successful!');
+        chatForm.show;
+    end
+    else
+    begin
+        ShowMessage('Wrong password');
+    end;
+  end
+  else
+  begin
+     ShowMessage('Wrong username');
+  end;
+
+end;
+
+end.

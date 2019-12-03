@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019-12-03 08:45:25.000.707,=C:\Users\Anh Tu Nguyen\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019-12-03 08:45:46.000.440,C:\Users\Anh Tu Nguyen\Documents\Embarcadero\Studio\Projects\Server.pas=C:\Users\Anh Tu Nguyen\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019-12-03 08:45:46.000.440,C:\Users\Anh Tu Nguyen\Documents\Embarcadero\Studio\Projects\Server.dfm=C:\Users\Anh Tu Nguyen\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019-12-03 09:13:32.000.351,C:\Users\Anh Tu Nguyen\Documents\Embarcadero\Studio\Projects\chat socket server\Server.dfm=C:\Users\Anh Tu Nguyen\Documents\Embarcadero\Studio\Projects\Server.dfm</Transaction>
+    <Transaction>2019-12-03 09:13:32.000.351,C:\Users\Anh Tu Nguyen\Documents\Embarcadero\Studio\Projects\chat socket server\Server.pas=C:\Users\Anh Tu Nguyen\Documents\Embarcadero\Studio\Projects\Server.pas</Transaction>
+    <Transaction>2019-12-03 09:18:43.000.456,C:\Users\Anh Tu Nguyen\Documents\Embarcadero\Studio\Projects\chat socket server\Project2.dproj=C:\Users\Anh Tu Nguyen\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2019-12-03 10:09:43.563,C:\Users\Anh Tu Nguyen\Documents\Embarcadero\Studio\Projects\chat socket server\ChatServer.dproj=C:\Users\Anh Tu Nguyen\Documents\Embarcadero\Studio\Projects\chat socket server\Project2.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
