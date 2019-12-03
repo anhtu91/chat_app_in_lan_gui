@@ -1,2 +1,2 @@
-# Chat app in a network using Socket 
+# Chat app GUI in a network using Socket 
 Multiclient server chat app...
